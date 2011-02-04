@@ -1,0 +1,52 @@
+## OSX
+.DS_Store?
+Icon?
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+## Linux
+.*
+*~
+*.sw[a-p]
+# KDE
+.directory
+
+## Windows
+# Windows image file caches
+Thumbs.db 
+# Folder config file
+Desktop.ini
+
+## SVN
+/.svn/*
+*/.svn/*
+
+## Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+# CDT-specific
+.cproject
+
+## Vim
+.*.sw[a-z]
+*.un~
+
+# explicit allow
+!.gitignore
+!.htaccess
+!.htpasswd
